@@ -18,6 +18,7 @@ This is more interpretable than arbitrary multipliers.
 
 import os
 import sys
+import argparse
 import torch
 import numpy as np
 import plotly.graph_objects as go
@@ -74,9 +75,39 @@ DIRECTION_RANGES = {
 }
 
 
+def load_run_summary(config_path):
+    with open(config_path, 'r') as f:
+        summary = json.load(f)
+    return summary, summary['config']
+
+
+def resolve_run_paths(run_dir=None, model_path=None, config_path=None, output_dir=None, output_subdir=None):
+    if run_dir is not None:
+        model_path = model_path or os.path.join(run_dir, 'model_final.pt')
+        config_path = config_path or os.path.join(run_dir, 'run_summary.json')
+        if output_dir is None and output_subdir is not None:
+            output_dir = os.path.join(run_dir, output_subdir)
+
+    missing = []
+    if model_path is None:
+        missing.append('model_path')
+    if config_path is None:
+        missing.append('config_path')
+
+    if missing:
+        raise ValueError(f"Missing required path arguments: {', '.join(missing)}")
+
+    return model_path, config_path, output_dir
+
+
 def load_model_and_circuit(model_path, config):
     """Load the model and circuit with trained masks"""
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    if torch.backends.mps.is_available():
+        device = torch.device("mps")
+    elif torch.cuda.is_available():
+        device = torch.device("cuda")
+    else:
+        device = torch.device("cpu")
 
     model = HookedTransformer.from_pretrained(
             config['model']['name'],
@@ -393,16 +424,29 @@ def apply_range_swap_intervention(model, circuit, data_loader, device,
     return summary
 
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Smart range-based ablation study for GP")
+    parser.add_argument('--run_dir', type=str, default=None, help='Path to a training run directory under svd_logs')
+    parser.add_argument('--model_path', type=str, default=None, help='Path to trained circuit checkpoint')
+    parser.add_argument('--config_path', type=str, default=None, help='Path to run_summary.json')
+    parser.add_argument('--output_dir', type=str, default=None, help='Directory to save ablation results')
+    parser.add_argument('--batch_size', type=int, default=32)
+    parser.add_argument('--max_batches', type=int, default=20)
+    return parser.parse_args()
+
+
 def main():
-    run_dir = "/home/areeb/CircDisk/svd_logs/gp_20251017_123045"
-    model_path = os.path.join(run_dir, "model_final.pt")
-    config_path = os.path.join(run_dir, "run_summary.json")
-    output_dir = os.path.join(run_dir, "smart_ablation")
+    args = parse_args()
+    model_path, config_path, output_dir = resolve_run_paths(
+        run_dir=args.run_dir,
+        model_path=args.model_path,
+        config_path=args.config_path,
+        output_dir=args.output_dir,
+        output_subdir='smart_ablation',
+    )
     os.makedirs(output_dir, exist_ok=True)
 
-    with open(config_path, 'r') as f:
-        summary = json.load(f)
-    config = summary['config']
+    summary, config = load_run_summary(config_path)
 
     print("=" * 100)
     print("SMART RANGE-BASED ABLATION STUDY")
@@ -421,14 +465,14 @@ def main():
 
     print("\n[2/4] Loading test data...")
     test_loader = local_data_loader.load_gp_dataset(
-        batch_size=32,
+        batch_size=args.batch_size,
         train=False,
         validation=False,
         shuffle=False
     )
 
     print("\n[3/4] Computing baseline metrics...")
-    baseline_metrics = compute_baseline_metrics(model, circuit, test_loader, device, max_batches=20)
+    baseline_metrics = compute_baseline_metrics(model, circuit, test_loader, device, max_batches=args.max_batches)
 
     print("\nBaseline Results:")
     for gender in ['he', 'she']:
@@ -449,7 +493,7 @@ def main():
         model, circuit, test_loader, device,
         target_gender='he',
         directions_to_swap=all_gender_dirs,
-        max_batches=20
+        max_batches=args.max_batches
     )
 
     # Experiment 2: Feminine prompts - swap all directions
@@ -458,7 +502,7 @@ def main():
         model, circuit, test_loader, device,
         target_gender='she',
         directions_to_swap=all_gender_dirs,
-        max_batches=20
+        max_batches=args.max_batches
     )
 
     # Experiment 3: Masculine prompts - swap only masculine
@@ -467,7 +511,7 @@ def main():
         model, circuit, test_loader, device,
         target_gender='he',
         directions_to_swap=masculine_dirs,
-        max_batches=20
+        max_batches=args.max_batches
     )
 
     # Experiment 4: Feminine prompts - swap only feminine
@@ -476,7 +520,7 @@ def main():
         model, circuit, test_loader, device,
         target_gender='she',
         directions_to_swap=feminine_dirs,
-        max_batches=20
+        max_batches=args.max_batches
     )
 
     # SIGMA AMPLIFICATION EXPERIMENTS
@@ -498,7 +542,7 @@ def main():
             model, circuit, test_loader, device,
             target_gender='he',
             directions_to_swap=all_gender_dirs,
-            max_batches=20,
+            max_batches=args.max_batches,
             sigma_amplification=sigma_scale
         )
         sigma_exp_results[f'masc_all_sigma_{sigma_scale}'] = result
@@ -506,6 +550,11 @@ def main():
 
     # Save results
     results = {
+        'run_dir': args.run_dir,
+        'model_path': model_path,
+        'config_path': config_path,
+        'output_dir': output_dir,
+        'run_summary': summary,
         'baseline': baseline_metrics,
         'exp1_masc_swap_all': exp1_results,
         'exp2_fem_swap_all': exp2_results,

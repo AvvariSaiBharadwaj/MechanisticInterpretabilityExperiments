@@ -10,6 +10,7 @@ import argparse
 import yaml
 import torch
 import torch.nn.functional as F
+import numpy as np
 from transformer_lens import HookedTransformer
 from tqdm import tqdm
 import matplotlib.pyplot as plt
@@ -1078,7 +1079,12 @@ def train_circuit(config, logger):
     torch.manual_seed(config['seed'])
 
     # Set device
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    if torch.backends.mps.is_available():
+        device = torch.device("mps")
+    elif torch.cuda.is_available():
+        device = torch.device("cuda")
+    else:
+        device = torch.device("cpu")
     logger.info(f"Using device: {device}")
 
     # Create run-specific directory structure

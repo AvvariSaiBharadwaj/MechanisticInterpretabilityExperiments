@@ -1,0 +1,1984 @@
+{
+  "config": {
+    "run_dir": "svd_logs/gp_circuit_discovery_20260307_113624",
+    "model_path": "svd_logs/gp_circuit_discovery_20260307_113624/model_final.pt",
+    "config_path": "svd_logs/gp_circuit_discovery_20260307_113624/run_summary.json",
+    "output_dir": "svd_logs/gp_circuit_discovery_20260307_113624/causal_steering_masculine",
+    "batch_size": 32,
+    "max_batches": 20,
+    "mode": "sweep",
+    "target_genders": [
+      "he",
+      "she"
+    ],
+    "direction_group": "masculine",
+    "direction_names": null,
+    "additive_deltas": [
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "sigma_scales": [
+      -2.0,
+      -1.0,
+      0.0,
+      1.0,
+      2.0
+    ],
+    "sweep_points": 9,
+    "selected_directions": {
+      "L9.H7.SV1": {
+        "layer": 9,
+        "head": 7,
+        "sv_idx": 1,
+        "type": "masculine",
+        "he_mean": 0.115,
+        "he_std": 0.18,
+        "she_mean": -0.453,
+        "she_std": 0.291
+      },
+      "L11.H8.SV6": {
+        "layer": 11,
+        "head": 8,
+        "sv_idx": 6,
+        "type": "masculine",
+        "he_mean": 0.203,
+        "he_std": 0.14,
+        "she_mean": -0.121,
+        "she_std": 0.184
+      }
+    },
+    "model_name": "gpt2-small",
+    "data_type": "gp",
+    "experiment_name": "gp_circuit_discovery"
+  },
+  "run_summary": {
+    "run_name": "gp_circuit_discovery_20260307_113624",
+    "timestamp": "20260307_113624",
+    "optimal_conditions_met": false,
+    "training_completed": true,
+    "final_step": 34,
+    "sparsity_stats": {
+      "layer": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "head": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "qk_sparsity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ov_sparsity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "overall_sparsity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mlp_in_sparsity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mlp_out_sparsity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_sparsity": 0.0
+    },
+    "sparsity_metrics": {
+      "num_active_components": 37020,
+      "relative_sparsity": 0.0,
+      "full_sparsity": 0.8456033231569992,
+      "relative_sparsity_pct": 0.0,
+      "full_sparsity_pct": 84.56033231569991,
+      "relative_denominator": 37020,
+      "full_denominator": 239772,
+      "sparsity_threshold": 0.001
+    },
+    "hyperparameters": {
+      "learning_rate": 0.02,
+      "l1_weight": 0.000195,
+      "weight_decay": 0.0,
+      "batch_size": 64,
+      "num_epochs": 2,
+      "sparsity_threshold": 0.001
+    },
+    "config": {
+      "experiment_name": "gp_circuit_discovery",
+      "seed": 42,
+      "use_wandb": false,
+      "model": {
+        "name": "gpt2-small",
+        "pretrained_cache_dir": "cache_dir"
+      },
+      "data_type": "gp",
+      "max_pad_length": 64,
+      "training": {
+        "batch_size": 64,
+        "num_epochs": 2,
+        "device": "cuda",
+        "learning_rate": 0.02,
+        "weight_decay": 0.0,
+        "l1_weight": 0.000195,
+        "temperature": 1.0,
+        "eval_interval": 50,
+        "patience": 5,
+        "min_lr": "1e-6",
+        "lr_factor": 0.5,
+        "early_stopping": true,
+        "save_checkpoints": true,
+        "kl_opt": 0.1,
+        "l1_opt": 3500,
+        "validation_interval": 20
+      },
+      "masking": {
+        "mask_init_value": 0.99,
+        "cache_svd": true,
+        "warmup_steps": 0,
+        "max_iterations_per_batch": 15,
+        "sparsity_threshold": 0.001
+      },
+      "log_dir": "logs",
+      "visualization": {
+        "plot_interval": 100,
+        "log_gradients": false,
+        "save_visualizations": true,
+        "visualization_dir": "visualizations"
+      },
+      "run_dir": "svd_logs/gp_circuit_discovery_20260307_113624",
+      "vis_dir": "svd_logs/gp_circuit_discovery_20260307_113624/visualizations"
+    },
+    "validation_kl": 0.13729367405176163,
+    "validation_loss": 0.44809889793395996,
+    "l1_norm": 1593.873046875,
+    "masked_accuracy": 0.7487980723381042,
+    "full_model_accuracy": 0.8261217872301737,
+    "exact_match": 0.8653846184412638,
+    "kl_threshold": 0.1,
+    "l1_threshold": 3500,
+    "test_evaluation": {
+      "test_kl": 0.13666628897190095,
+      "test_kl_std": 0.020899790867165407,
+      "test_loss": 0.13666628897190095,
+      "test_masked_acc": 0.7457499980926514,
+      "test_masked_acc_std": 0.047413407340546394,
+      "test_full_acc": 0.7725000023841858,
+      "test_full_acc_std": 0.04300254505410396,
+      "test_exact_match": 0.8683750033378601,
+      "test_exact_match_std": 0.060271005422459153,
+      "test_masked_exact_match": 0.7457499980926514,
+      "test_masked_exact_match_std": 0.047413407340546394,
+      "test_logit_diff": 2.302164602279663,
+      "test_logit_diff_std": 0.25808577132220484,
+      "relative_sparsity": 0.0,
+      "full_sparsity": 84.56033231569991,
+      "num_active_components": 37020,
+      "epoch": 34,
+      "step": 34
+    }
+  },
+  "runs": {
+    "he": [
+      {
+        "mode": "sweep",
+        "sweep_value": -1.035,
+        "target_gender": "he",
+        "n_target": 150,
+        "accuracy": 45.33333333333333,
+        "he_logit": {
+          "mean": 12.767234643300375,
+          "std": 1.178567174020499,
+          "count": 150
+        },
+        "she_logit": {
+          "mean": 12.160638637542725,
+          "std": 1.2701463473913475,
+          "count": 150
+        },
+        "they_logit": {
+          "mean": 7.143612051010132,
+          "std": 1.2369846722786604,
+          "count": 150
+        },
+        "target_logit_diff": {
+          "mean": 0.6065960057576497,
+          "std": 1.2160384827801982,
+          "count": 150
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.525198294321696,
+          "std": 1.4813838404395336,
+          "count": 150
+        },
+        "delta_target_logit_diff_mean": -1.9186022885640461,
+        "flip_to_he": 0,
+        "flip_to_she": 13,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": 0.11519098167773337,
+            "std": 0.18007200584203364,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": -0.20281074577981295,
+            "std": 0.13982152311660997,
+            "count": 150
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": -1.034999966621399,
+            "std": 0.0,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": -1.034999966621399,
+            "std": 0.0,
+            "count": 150
+          }
+        }
+      },
+      {
+        "mode": "sweep",
+        "sweep_value": -0.84525,
+        "target_gender": "he",
+        "n_target": 150,
+        "accuracy": 46.0,
+        "he_logit": {
+          "mean": 12.792308419545492,
+          "std": 1.1792143318738817,
+          "count": 150
+        },
+        "she_logit": {
+          "mean": 12.054649766286214,
+          "std": 1.268554516001969,
+          "count": 150
+        },
+        "they_logit": {
+          "mean": 7.169499979019165,
+          "std": 1.2364625502099997,
+          "count": 150
+        },
+        "target_logit_diff": {
+          "mean": 0.7376586532592774,
+          "std": 1.2164330850949112,
+          "count": 150
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.525198294321696,
+          "std": 1.4813838404395336,
+          "count": 150
+        },
+        "delta_target_logit_diff_mean": -1.7875396410624187,
+        "flip_to_he": 0,
+        "flip_to_she": 11,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": 0.11519098167773337,
+            "std": 0.18007200584203364,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": -0.20281074577981295,
+            "std": 0.13982152311660997,
+            "count": 150
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": -0.8452500104904175,
+            "std": 0.0,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": -0.8452500104904175,
+            "std": 0.0,
+            "count": 150
+          }
+        }
+      },
+      {
+        "mode": "sweep",
+        "sweep_value": -0.6555,
+        "target_gender": "he",
+        "n_target": 150,
+        "accuracy": 47.333333333333336,
+        "he_logit": {
+          "mean": 12.817215366363525,
+          "std": 1.1798411130260638,
+          "count": 150
+        },
+        "she_logit": {
+          "mean": 11.948498528798421,
+          "std": 1.2669614452081477,
+          "count": 150
+        },
+        "they_logit": {
+          "mean": 7.195296433766683,
+          "std": 1.2359284717251873,
+          "count": 150
+        },
+        "target_logit_diff": {
+          "mean": 0.8687168375651042,
+          "std": 1.2168510820391725,
+          "count": 150
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.525198294321696,
+          "std": 1.4813838404395336,
+          "count": 150
+        },
+        "delta_target_logit_diff_mean": -1.6564814567565918,
+        "flip_to_he": 0,
+        "flip_to_she": 8,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": 0.11519098167773337,
+            "std": 0.18007200584203364,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": -0.20281074577981295,
+            "std": 0.13982152311660997,
+            "count": 150
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": -0.6554999947547913,
+            "std": 0.0,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": -0.6554999947547913,
+            "std": 0.0,
+            "count": 150
+          }
+        }
+      },
+      {
+        "mode": "sweep",
+        "sweep_value": -0.4657499999999999,
+        "target_gender": "he",
+        "n_target": 150,
+        "accuracy": 48.66666666666667,
+        "he_logit": {
+          "mean": 12.841957410176596,
+          "std": 1.1804471695930192,
+          "count": 150
+        },
+        "she_logit": {
+          "mean": 11.842189439137776,
+          "std": 1.2653637281856465,
+          "count": 150
+        },
+        "they_logit": {
+          "mean": 7.221000738143921,
+          "std": 1.2353845881945127,
+          "count": 150
+        },
+        "target_logit_diff": {
+          "mean": 0.9997679710388183,
+          "std": 1.2172865926065872,
+          "count": 150
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.525198294321696,
+          "std": 1.4813838404395336,
+          "count": 150
+        },
+        "delta_target_logit_diff_mean": -1.5254303232828776,
+        "flip_to_he": 0,
+        "flip_to_she": 6,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": 0.11519098167773337,
+            "std": 0.18007200584203364,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": -0.20281074577981295,
+            "std": 0.13982152311660997,
+            "count": 150
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": -0.4657500088214874,
+            "std": 0.0,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": -0.4657500088214874,
+            "std": 0.0,
+            "count": 150
+          }
+        }
+      },
+      {
+        "mode": "sweep",
+        "sweep_value": -0.2759999999999999,
+        "target_gender": "he",
+        "n_target": 150,
+        "accuracy": 48.66666666666667,
+        "he_logit": {
+          "mean": 12.866529808044433,
+          "std": 1.1810330095655641,
+          "count": 150
+        },
+        "she_logit": {
+          "mean": 11.735724550882976,
+          "std": 1.263765824758299,
+          "count": 150
+        },
+        "they_logit": {
+          "mean": 7.246611572901408,
+          "std": 1.2348286659846508,
+          "count": 150
+        },
+        "target_logit_diff": {
+          "mean": 1.1308052571614584,
+          "std": 1.217746985560835,
+          "count": 150
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.525198294321696,
+          "std": 1.4813838404395336,
+          "count": 150
+        },
+        "delta_target_logit_diff_mean": -1.3943930371602375,
+        "flip_to_he": 0,
+        "flip_to_she": 5,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": 0.11519098167773337,
+            "std": 0.18007200584203364,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": -0.20281074577981295,
+            "std": 0.13982152311660997,
+            "count": 150
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": -0.2759999930858612,
+            "std": 0.0,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": -0.2759999930858612,
+            "std": 0.0,
+            "count": 150
+          }
+        }
+      },
+      {
+        "mode": "sweep",
+        "sweep_value": -0.08624999999999994,
+        "target_gender": "he",
+        "n_target": 150,
+        "accuracy": 50.0,
+        "he_logit": {
+          "mean": 12.890933717091878,
+          "std": 1.1815967487772223,
+          "count": 150
+        },
+        "she_logit": {
+          "mean": 11.629108435312906,
+          "std": 1.2621647385799253,
+          "count": 150
+        },
+        "they_logit": {
+          "mean": 7.272127815882365,
+          "std": 1.2342619940070045,
+          "count": 150
+        },
+        "target_logit_diff": {
+          "mean": 1.2618252817789715,
+          "std": 1.2182268332633952,
+          "count": 150
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.525198294321696,
+          "std": 1.4813838404395336,
+          "count": 150
+        },
+        "delta_target_logit_diff_mean": -1.2633730125427247,
+        "flip_to_he": 0,
+        "flip_to_she": 4,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": 0.11519098167773337,
+            "std": 0.18007200584203364,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": -0.20281074577981295,
+            "std": 0.13982152311660997,
+            "count": 150
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": -0.08624999970197678,
+            "std": 0.0,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": -0.08624999970197678,
+            "std": 0.0,
+            "count": 150
+          }
+        }
+      },
+      {
+        "mode": "sweep",
+        "sweep_value": 0.10350000000000015,
+        "target_gender": "he",
+        "n_target": 150,
+        "accuracy": 50.66666666666667,
+        "he_logit": {
+          "mean": 12.915169035593669,
+          "std": 1.1821401085774468,
+          "count": 150
+        },
+        "she_logit": {
+          "mean": 11.522347863515218,
+          "std": 1.2605648776848515,
+          "count": 150
+        },
+        "they_logit": {
+          "mean": 7.297549257278442,
+          "std": 1.2336845436391701,
+          "count": 150
+        },
+        "target_logit_diff": {
+          "mean": 1.3928211720784505,
+          "std": 1.2187290663807333,
+          "count": 150
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.525198294321696,
+          "std": 1.4813838404395336,
+          "count": 150
+        },
+        "delta_target_logit_diff_mean": -1.1323771222432455,
+        "flip_to_he": 0,
+        "flip_to_she": 4,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": 0.11519098167773337,
+            "std": 0.18007200584203364,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": -0.20281074577981295,
+            "std": 0.13982152311660997,
+            "count": 150
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": 0.10350000113248825,
+            "std": 0.0,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": 0.10350000113248825,
+            "std": 0.0,
+            "count": 150
+          }
+        }
+      },
+      {
+        "mode": "sweep",
+        "sweep_value": 0.29325,
+        "target_gender": "he",
+        "n_target": 150,
+        "accuracy": 52.0,
+        "he_logit": {
+          "mean": 12.939232222239177,
+          "std": 1.182662317783999,
+          "count": 150
+        },
+        "she_logit": {
+          "mean": 11.415444761912028,
+          "std": 1.2589628256632304,
+          "count": 150
+        },
+        "they_logit": {
+          "mean": 7.32287418047587,
+          "std": 1.2330966128558465,
+          "count": 150
+        },
+        "target_logit_diff": {
+          "mean": 1.5237874603271484,
+          "std": 1.2192520347698494,
+          "count": 150
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.525198294321696,
+          "std": 1.4813838404395336,
+          "count": 150
+        },
+        "delta_target_logit_diff_mean": -1.0014108339945476,
+        "flip_to_he": 0,
+        "flip_to_she": 3,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": 0.11519098167773337,
+            "std": 0.18007200584203364,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": -0.20281074577981295,
+            "std": 0.13982152311660997,
+            "count": 150
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": 0.2932499945163727,
+            "std": 0.0,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": 0.2932499945163727,
+            "std": 0.0,
+            "count": 150
+          }
+        }
+      },
+      {
+        "mode": "sweep",
+        "sweep_value": 0.48300000000000004,
+        "target_gender": "he",
+        "n_target": 150,
+        "accuracy": 53.333333333333336,
+        "he_logit": {
+          "mean": 12.963124993642172,
+          "std": 1.183163910808718,
+          "count": 150
+        },
+        "she_logit": {
+          "mean": 11.308402061462402,
+          "std": 1.2573603998791503,
+          "count": 150
+        },
+        "they_logit": {
+          "mean": 7.348102506001791,
+          "std": 1.232497659128536,
+          "count": 150
+        },
+        "target_logit_diff": {
+          "mean": 1.654722932179769,
+          "std": 1.2197964264973076,
+          "count": 150
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.525198294321696,
+          "std": 1.4813838404395336,
+          "count": 150
+        },
+        "delta_target_logit_diff_mean": -0.8704753621419271,
+        "flip_to_he": 0,
+        "flip_to_she": 1,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": 0.11519098167773337,
+            "std": 0.18007200584203364,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": -0.20281074577981295,
+            "std": 0.13982152311660997,
+            "count": 150
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": 0.4830000102519989,
+            "std": 0.0,
+            "count": 150
+          },
+          "L11.H8.SV6": {
+            "mean": 0.4830000102519989,
+            "std": 0.0,
+            "count": 150
+          }
+        }
+      }
+    ],
+    "she": [
+      {
+        "mode": "sweep",
+        "sweep_value": -1.035,
+        "target_gender": "she",
+        "n_target": 156,
+        "accuracy": 69.23076923076923,
+        "he_logit": {
+          "mean": 9.98934669066698,
+          "std": 1.6606420090367815,
+          "count": 156
+        },
+        "she_logit": {
+          "mean": 13.71289474536211,
+          "std": 1.4315559273925778,
+          "count": 156
+        },
+        "they_logit": {
+          "mean": 7.41970771092635,
+          "std": 1.3936945182495848,
+          "count": 156
+        },
+        "target_logit_diff": {
+          "mean": 3.7235480546951294,
+          "std": 1.6961537747954305,
+          "count": 156
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.8397246262966056,
+          "std": 2.12317142801181,
+          "count": 156
+        },
+        "delta_target_logit_diff_mean": 0.8838234283985236,
+        "flip_to_he": 0,
+        "flip_to_she": 5,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": -0.45309273892333013,
+            "std": 0.29061827340047014,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": 0.12063505385221782,
+            "std": 0.18455046176936427,
+            "count": 156
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": -1.034999966621399,
+            "std": 0.0,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": -1.034999966621399,
+            "std": 0.0,
+            "count": 156
+          }
+        }
+      },
+      {
+        "mode": "sweep",
+        "sweep_value": -0.84525,
+        "target_gender": "she",
+        "n_target": 156,
+        "accuracy": 67.94871794871796,
+        "he_logit": {
+          "mean": 10.014863481888405,
+          "std": 1.6608646772518167,
+          "count": 156
+        },
+        "she_logit": {
+          "mean": 13.60772121258271,
+          "std": 1.4296455763822582,
+          "count": 156
+        },
+        "they_logit": {
+          "mean": 7.4460024038950605,
+          "std": 1.3930878519261571,
+          "count": 156
+        },
+        "target_logit_diff": {
+          "mean": 3.5928577306943064,
+          "std": 1.6947142684586005,
+          "count": 156
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.8397246262966056,
+          "std": 2.12317142801181,
+          "count": 156
+        },
+        "delta_target_logit_diff_mean": 0.7531331043977004,
+        "flip_to_he": 0,
+        "flip_to_she": 5,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": -0.45309273892333013,
+            "std": 0.29061827340047014,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": 0.12063505385221782,
+            "std": 0.18455046176936427,
+            "count": 156
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": -0.8452500104904175,
+            "std": 0.0,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": -0.8452500104904175,
+            "std": 0.0,
+            "count": 156
+          }
+        }
+      },
+      {
+        "mode": "sweep",
+        "sweep_value": -0.6555,
+        "target_gender": "she",
+        "n_target": 156,
+        "accuracy": 67.3076923076923,
+        "he_logit": {
+          "mean": 10.040253061514635,
+          "std": 1.6610646604648747,
+          "count": 156
+        },
+        "she_logit": {
+          "mean": 13.50235272065187,
+          "std": 1.4277261317806873,
+          "count": 156
+        },
+        "they_logit": {
+          "mean": 7.472204731060908,
+          "std": 1.3924688559171134,
+          "count": 156
+        },
+        "target_logit_diff": {
+          "mean": 3.4620996591372366,
+          "std": 1.6932781045769199,
+          "count": 156
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.8397246262966056,
+          "std": 2.12317142801181,
+          "count": 156
+        },
+        "delta_target_logit_diff_mean": 0.6223750328406309,
+        "flip_to_he": 0,
+        "flip_to_she": 4,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": -0.45309273892333013,
+            "std": 0.29061827340047014,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": 0.12063505385221782,
+            "std": 0.18455046176936427,
+            "count": 156
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": -0.6554999947547913,
+            "std": 0.0,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": -0.6554999947547913,
+            "std": 0.0,
+            "count": 156
+          }
+        }
+      },
+      {
+        "mode": "sweep",
+        "sweep_value": -0.4657499999999999,
+        "target_gender": "she",
+        "n_target": 156,
+        "accuracy": 67.3076923076923,
+        "he_logit": {
+          "mean": 10.065515637397766,
+          "std": 1.661242430605006,
+          "count": 156
+        },
+        "she_logit": {
+          "mean": 13.396794007374691,
+          "std": 1.4257971531616331,
+          "count": 156
+        },
+        "they_logit": {
+          "mean": 7.498314573214604,
+          "std": 1.3918361806258512,
+          "count": 156
+        },
+        "target_logit_diff": {
+          "mean": 3.331278369976924,
+          "std": 1.6918430373473186,
+          "count": 156
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.8397246262966056,
+          "std": 2.12317142801181,
+          "count": 156
+        },
+        "delta_target_logit_diff_mean": 0.4915537436803182,
+        "flip_to_he": 0,
+        "flip_to_she": 4,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": -0.45309273892333013,
+            "std": 0.29061827340047014,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": 0.12063505385221782,
+            "std": 0.18455046176936427,
+            "count": 156
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": -0.4657500088214874,
+            "std": 0.0,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": -0.4657500088214874,
+            "std": 0.0,
+            "count": 156
+          }
+        }
+      },
+      {
+        "mode": "sweep",
+        "sweep_value": -0.2759999999999999,
+        "target_gender": "she",
+        "n_target": 156,
+        "accuracy": 67.3076923076923,
+        "he_logit": {
+          "mean": 10.090649797366215,
+          "std": 1.661397326860048,
+          "count": 156
+        },
+        "she_logit": {
+          "mean": 13.291047291877943,
+          "std": 1.4238580965799927,
+          "count": 156
+        },
+        "they_logit": {
+          "mean": 7.524330875812432,
+          "std": 1.3911922387566817,
+          "count": 156
+        },
+        "target_logit_diff": {
+          "mean": 3.2003974945117264,
+          "std": 1.6904095297232,
+          "count": 156
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.8397246262966056,
+          "std": 2.12317142801181,
+          "count": 156
+        },
+        "delta_target_logit_diff_mean": 0.36067286821512073,
+        "flip_to_he": 0,
+        "flip_to_she": 4,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": -0.45309273892333013,
+            "std": 0.29061827340047014,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": 0.12063505385221782,
+            "std": 0.18455046176936427,
+            "count": 156
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": -0.2759999930858612,
+            "std": 0.0,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": -0.2759999930858612,
+            "std": 0.0,
+            "count": 156
+          }
+        }
+      },
+      {
+        "mode": "sweep",
+        "sweep_value": -0.08624999999999994,
+        "target_gender": "she",
+        "n_target": 156,
+        "accuracy": 64.74358974358975,
+        "he_logit": {
+          "mean": 10.115655046242933,
+          "std": 1.6615308616492264,
+          "count": 156
+        },
+        "she_logit": {
+          "mean": 13.18511864466545,
+          "std": 1.4219127456369174,
+          "count": 156
+        },
+        "they_logit": {
+          "mean": 7.550252101360223,
+          "std": 1.390535996339472,
+          "count": 156
+        },
+        "target_logit_diff": {
+          "mean": 3.069463598422515,
+          "std": 1.6889786645228049,
+          "count": 156
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.8397246262966056,
+          "std": 2.12317142801181,
+          "count": 156
+        },
+        "delta_target_logit_diff_mean": 0.22973897212590927,
+        "flip_to_he": 0,
+        "flip_to_she": 3,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": -0.45309273892333013,
+            "std": 0.29061827340047014,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": 0.12063505385221782,
+            "std": 0.18455046176936427,
+            "count": 156
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": -0.08624999970197678,
+            "std": 0.0,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": -0.08624999970197678,
+            "std": 0.0,
+            "count": 156
+          }
+        }
+      },
+      {
+        "mode": "sweep",
+        "sweep_value": 0.10350000000000015,
+        "target_gender": "she",
+        "n_target": 156,
+        "accuracy": 64.1025641025641,
+        "he_logit": {
+          "mean": 10.140529183241037,
+          "std": 1.6616416723749823,
+          "count": 156
+        },
+        "she_logit": {
+          "mean": 13.079012045493492,
+          "std": 1.4199594480529087,
+          "count": 156
+        },
+        "they_logit": {
+          "mean": 7.5760780939689045,
+          "std": 1.3898675510094376,
+          "count": 156
+        },
+        "target_logit_diff": {
+          "mean": 2.9384828622524557,
+          "std": 1.6875523370849914,
+          "count": 156
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.8397246262966056,
+          "std": 2.12317142801181,
+          "count": 156
+        },
+        "delta_target_logit_diff_mean": 0.09875823595584968,
+        "flip_to_he": 0,
+        "flip_to_she": 2,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": -0.45309273892333013,
+            "std": 0.29061827340047014,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": 0.12063505385221782,
+            "std": 0.18455046176936427,
+            "count": 156
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": 0.10350000113248825,
+            "std": 0.0,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": 0.10350000113248825,
+            "std": 0.0,
+            "count": 156
+          }
+        }
+      },
+      {
+        "mode": "sweep",
+        "sweep_value": 0.29325,
+        "target_gender": "she",
+        "n_target": 156,
+        "accuracy": 62.17948717948718,
+        "he_logit": {
+          "mean": 10.165272724934113,
+          "std": 1.6617305609483923,
+          "count": 156
+        },
+        "she_logit": {
+          "mean": 12.97273030036535,
+          "std": 1.4179990170010401,
+          "count": 156
+        },
+        "they_logit": {
+          "mean": 7.601806411376367,
+          "std": 1.3891856040554564,
+          "count": 156
+        },
+        "target_logit_diff": {
+          "mean": 2.8074575754312368,
+          "std": 1.6861292585634482,
+          "count": 156
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.8397246262966056,
+          "std": 2.12317142801181,
+          "count": 156
+        },
+        "delta_target_logit_diff_mean": -0.03226705086536896,
+        "flip_to_he": 0,
+        "flip_to_she": 2,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": -0.45309273892333013,
+            "std": 0.29061827340047014,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": 0.12063505385221782,
+            "std": 0.18455046176936427,
+            "count": 156
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": 0.2932499945163727,
+            "std": 0.0,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": 0.2932499945163727,
+            "std": 0.0,
+            "count": 156
+          }
+        }
+      },
+      {
+        "mode": "sweep",
+        "sweep_value": 0.48300000000000004,
+        "target_gender": "she",
+        "n_target": 156,
+        "accuracy": 59.61538461538461,
+        "he_logit": {
+          "mean": 10.189882596333822,
+          "std": 1.6617955866678609,
+          "count": 156
+        },
+        "she_logit": {
+          "mean": 12.866278666716356,
+          "std": 1.4160309221452574,
+          "count": 156
+        },
+        "they_logit": {
+          "mean": 7.627437023016123,
+          "std": 1.3884926077483886,
+          "count": 156
+        },
+        "target_logit_diff": {
+          "mean": 2.676396070382534,
+          "std": 1.6847091503146963,
+          "count": 156
+        },
+        "baseline_target_logit_diff": {
+          "mean": 2.8397246262966056,
+          "std": 2.12317142801181,
+          "count": 156
+        },
+        "delta_target_logit_diff_mean": -0.1633285559140719,
+        "flip_to_he": 0,
+        "flip_to_she": 1,
+        "per_direction_scalar_before": {
+          "L9.H7.SV1": {
+            "mean": -0.45309273892333013,
+            "std": 0.29061827340047014,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": 0.12063505385221782,
+            "std": 0.18455046176936427,
+            "count": 156
+          }
+        },
+        "per_direction_scalar_after": {
+          "L9.H7.SV1": {
+            "mean": 0.4830000102519989,
+            "std": 0.0,
+            "count": 156
+          },
+          "L11.H8.SV6": {
+            "mean": 0.4830000102519989,
+            "std": 0.0,
+            "count": 156
+          }
+        }
+      }
+    ]
+  }
+}

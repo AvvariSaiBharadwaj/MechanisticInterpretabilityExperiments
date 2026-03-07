@@ -1,0 +1,43 @@
+experiment_name: gp_causal_steering
+seed: 42
+
+model:
+  name: "gpt2-small"
+  pretrained_cache_dir: "cache_dir"
+
+data_type: "gp"
+
+artifacts:
+  run_dir: null
+  model_path: null
+  config_path: null
+  output_dir: null
+
+steering:
+  mode: "sweep"
+  target_genders:
+    - "he"
+    - "she"
+  direction_group: "all_gender"
+  direction_names: []
+  additive_deltas:
+    - -1.0
+    - -0.5
+    - 0.0
+    - 0.5
+    - 1.0
+  sigma_scales:
+    - -2.0
+    - -1.0
+    - 0.0
+    - 1.0
+    - 2.0
+  sweep_points: 9
+
+runtime:
+  batch_size: 32
+  max_batches: 20
+
+output:
+  output_subdir: "causal_steering"
+  save_json: true

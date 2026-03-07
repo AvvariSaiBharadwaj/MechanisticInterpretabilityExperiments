@@ -1,0 +1,2311 @@
+{
+  "qk_masks": [
+    {
+      "layer": 0,
+      "head": 0,
+      "avg_mask": 0.03347969427704811,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L0H0"
+    },
+    {
+      "layer": 0,
+      "head": 1,
+      "avg_mask": 0.15143537521362305,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L0H1"
+    },
+    {
+      "layer": 0,
+      "head": 2,
+      "avg_mask": 0.06307528913021088,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L0H2"
+    },
+    {
+      "layer": 0,
+      "head": 3,
+      "avg_mask": 0.06355540454387665,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L0H3"
+    },
+    {
+      "layer": 0,
+      "head": 4,
+      "avg_mask": 0.14627358317375183,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L0H4"
+    },
+    {
+      "layer": 0,
+      "head": 5,
+      "avg_mask": 0.10232885181903839,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L0H5"
+    },
+    {
+      "layer": 0,
+      "head": 6,
+      "avg_mask": 0.048362791538238525,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L0H6"
+    },
+    {
+      "layer": 0,
+      "head": 7,
+      "avg_mask": 0.17523223161697388,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L0H7"
+    },
+    {
+      "layer": 0,
+      "head": 8,
+      "avg_mask": 0.06659780442714691,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L0H8"
+    },
+    {
+      "layer": 0,
+      "head": 9,
+      "avg_mask": 0.09236100316047668,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L0H9"
+    },
+    {
+      "layer": 0,
+      "head": 10,
+      "avg_mask": 0.038833729922771454,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L0H10"
+    },
+    {
+      "layer": 0,
+      "head": 11,
+      "avg_mask": 0.05850604176521301,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L0H11"
+    },
+    {
+      "layer": 1,
+      "head": 0,
+      "avg_mask": 0.08903025835752487,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L1H0"
+    },
+    {
+      "layer": 1,
+      "head": 1,
+      "avg_mask": 0.18339002132415771,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L1H1"
+    },
+    {
+      "layer": 1,
+      "head": 2,
+      "avg_mask": 0.01635553315281868,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L1H2"
+    },
+    {
+      "layer": 1,
+      "head": 3,
+      "avg_mask": 0.10935203731060028,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L1H3"
+    },
+    {
+      "layer": 1,
+      "head": 4,
+      "avg_mask": 0.06938990950584412,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L1H4"
+    },
+    {
+      "layer": 1,
+      "head": 5,
+      "avg_mask": 0.08027198910713196,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L1H5"
+    },
+    {
+      "layer": 1,
+      "head": 6,
+      "avg_mask": 0.03414427489042282,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L1H6"
+    },
+    {
+      "layer": 1,
+      "head": 7,
+      "avg_mask": 0.12201586365699768,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L1H7"
+    },
+    {
+      "layer": 1,
+      "head": 8,
+      "avg_mask": 0.06380033493041992,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L1H8"
+    },
+    {
+      "layer": 1,
+      "head": 9,
+      "avg_mask": 0.0453934408724308,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L1H9"
+    },
+    {
+      "layer": 1,
+      "head": 10,
+      "avg_mask": 0.01942407339811325,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L1H10"
+    },
+    {
+      "layer": 1,
+      "head": 11,
+      "avg_mask": 0.1517811417579651,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L1H11"
+    },
+    {
+      "layer": 2,
+      "head": 0,
+      "avg_mask": 0.15562188625335693,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L2H0"
+    },
+    {
+      "layer": 2,
+      "head": 1,
+      "avg_mask": 0.18303140997886658,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L2H1"
+    },
+    {
+      "layer": 2,
+      "head": 2,
+      "avg_mask": 0.12512730062007904,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L2H2"
+    },
+    {
+      "layer": 2,
+      "head": 3,
+      "avg_mask": 0.10871316492557526,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L2H3"
+    },
+    {
+      "layer": 2,
+      "head": 4,
+      "avg_mask": 0.12581612169742584,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L2H4"
+    },
+    {
+      "layer": 2,
+      "head": 5,
+      "avg_mask": 0.10346772521734238,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L2H5"
+    },
+    {
+      "layer": 2,
+      "head": 6,
+      "avg_mask": 0.228035107254982,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L2H6"
+    },
+    {
+      "layer": 2,
+      "head": 7,
+      "avg_mask": 0.04267148673534393,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L2H7"
+    },
+    {
+      "layer": 2,
+      "head": 8,
+      "avg_mask": 0.1653522253036499,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L2H8"
+    },
+    {
+      "layer": 2,
+      "head": 9,
+      "avg_mask": 0.15108126401901245,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L2H9"
+    },
+    {
+      "layer": 2,
+      "head": 10,
+      "avg_mask": 0.10343301296234131,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L2H10"
+    },
+    {
+      "layer": 2,
+      "head": 11,
+      "avg_mask": 0.26104798913002014,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L2H11"
+    },
+    {
+      "layer": 3,
+      "head": 0,
+      "avg_mask": 0.019325237721204758,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L3H0"
+    },
+    {
+      "layer": 3,
+      "head": 1,
+      "avg_mask": 0.17622342705726624,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L3H1"
+    },
+    {
+      "layer": 3,
+      "head": 2,
+      "avg_mask": 0.13084962964057922,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L3H2"
+    },
+    {
+      "layer": 3,
+      "head": 3,
+      "avg_mask": 0.19054195284843445,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L3H3"
+    },
+    {
+      "layer": 3,
+      "head": 4,
+      "avg_mask": 0.053691066801548004,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L3H4"
+    },
+    {
+      "layer": 3,
+      "head": 5,
+      "avg_mask": 0.17188824713230133,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L3H5"
+    },
+    {
+      "layer": 3,
+      "head": 6,
+      "avg_mask": 0.18421755731105804,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L3H6"
+    },
+    {
+      "layer": 3,
+      "head": 7,
+      "avg_mask": 0.19465047121047974,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L3H7"
+    },
+    {
+      "layer": 3,
+      "head": 8,
+      "avg_mask": 0.15921083092689514,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L3H8"
+    },
+    {
+      "layer": 3,
+      "head": 9,
+      "avg_mask": 0.09107449650764465,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L3H9"
+    },
+    {
+      "layer": 3,
+      "head": 10,
+      "avg_mask": 0.20986014604568481,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L3H10"
+    },
+    {
+      "layer": 3,
+      "head": 11,
+      "avg_mask": 0.13381041586399078,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L3H11"
+    },
+    {
+      "layer": 4,
+      "head": 0,
+      "avg_mask": 0.13649874925613403,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L4H0"
+    },
+    {
+      "layer": 4,
+      "head": 1,
+      "avg_mask": 0.19527944922447205,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L4H1"
+    },
+    {
+      "layer": 4,
+      "head": 2,
+      "avg_mask": 0.04582033306360245,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L4H2"
+    },
+    {
+      "layer": 4,
+      "head": 3,
+      "avg_mask": 0.2665725350379944,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L4H3"
+    },
+    {
+      "layer": 4,
+      "head": 4,
+      "avg_mask": 0.06887456029653549,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L4H4"
+    },
+    {
+      "layer": 4,
+      "head": 5,
+      "avg_mask": 0.20626530051231384,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L4H5"
+    },
+    {
+      "layer": 4,
+      "head": 6,
+      "avg_mask": 0.24825966358184814,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L4H6"
+    },
+    {
+      "layer": 4,
+      "head": 7,
+      "avg_mask": 0.07138096541166306,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L4H7"
+    },
+    {
+      "layer": 4,
+      "head": 8,
+      "avg_mask": 0.07097655534744263,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L4H8"
+    },
+    {
+      "layer": 4,
+      "head": 9,
+      "avg_mask": 0.2112300843000412,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L4H9"
+    },
+    {
+      "layer": 4,
+      "head": 10,
+      "avg_mask": 0.05352126806974411,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L4H10"
+    },
+    {
+      "layer": 4,
+      "head": 11,
+      "avg_mask": 0.08067210018634796,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L4H11"
+    },
+    {
+      "layer": 5,
+      "head": 0,
+      "avg_mask": 0.29690825939178467,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L5H0"
+    },
+    {
+      "layer": 5,
+      "head": 1,
+      "avg_mask": 0.014037752524018288,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L5H1"
+    },
+    {
+      "layer": 5,
+      "head": 2,
+      "avg_mask": 0.30087727308273315,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L5H2"
+    },
+    {
+      "layer": 5,
+      "head": 3,
+      "avg_mask": 0.09320716559886932,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L5H3"
+    },
+    {
+      "layer": 5,
+      "head": 4,
+      "avg_mask": 0.18643122911453247,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L5H4"
+    },
+    {
+      "layer": 5,
+      "head": 5,
+      "avg_mask": 0.11748058348894119,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L5H5"
+    },
+    {
+      "layer": 5,
+      "head": 6,
+      "avg_mask": 0.08477900177240372,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L5H6"
+    },
+    {
+      "layer": 5,
+      "head": 7,
+      "avg_mask": 0.058180615305900574,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L5H7"
+    },
+    {
+      "layer": 5,
+      "head": 8,
+      "avg_mask": 0.271299809217453,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L5H8"
+    },
+    {
+      "layer": 5,
+      "head": 9,
+      "avg_mask": 0.1676732301712036,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L5H9"
+    },
+    {
+      "layer": 5,
+      "head": 10,
+      "avg_mask": 0.18549314141273499,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L5H10"
+    },
+    {
+      "layer": 5,
+      "head": 11,
+      "avg_mask": 0.06709325313568115,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L5H11"
+    },
+    {
+      "layer": 6,
+      "head": 0,
+      "avg_mask": 0.263449102640152,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L6H0"
+    },
+    {
+      "layer": 6,
+      "head": 1,
+      "avg_mask": 0.16327252984046936,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L6H1"
+    },
+    {
+      "layer": 6,
+      "head": 2,
+      "avg_mask": 0.04297773540019989,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L6H2"
+    },
+    {
+      "layer": 6,
+      "head": 3,
+      "avg_mask": 0.20841729640960693,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L6H3"
+    },
+    {
+      "layer": 6,
+      "head": 4,
+      "avg_mask": 0.0846266895532608,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L6H4"
+    },
+    {
+      "layer": 6,
+      "head": 5,
+      "avg_mask": 0.19329074025154114,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L6H5"
+    },
+    {
+      "layer": 6,
+      "head": 6,
+      "avg_mask": 0.07958517968654633,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L6H6"
+    },
+    {
+      "layer": 6,
+      "head": 7,
+      "avg_mask": 0.1131695955991745,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L6H7"
+    },
+    {
+      "layer": 6,
+      "head": 8,
+      "avg_mask": 0.1260574460029602,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L6H8"
+    },
+    {
+      "layer": 6,
+      "head": 9,
+      "avg_mask": 0.01350670587271452,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L6H9"
+    },
+    {
+      "layer": 6,
+      "head": 10,
+      "avg_mask": 0.14414574205875397,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L6H10"
+    },
+    {
+      "layer": 6,
+      "head": 11,
+      "avg_mask": 0.12798678874969482,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L6H11"
+    },
+    {
+      "layer": 7,
+      "head": 0,
+      "avg_mask": 0.10277234017848969,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L7H0"
+    },
+    {
+      "layer": 7,
+      "head": 1,
+      "avg_mask": 0.14682626724243164,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L7H1"
+    },
+    {
+      "layer": 7,
+      "head": 2,
+      "avg_mask": 0.00864880345761776,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L7H2"
+    },
+    {
+      "layer": 7,
+      "head": 3,
+      "avg_mask": 0.20994314551353455,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L7H3"
+    },
+    {
+      "layer": 7,
+      "head": 4,
+      "avg_mask": 0.12754882872104645,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L7H4"
+    },
+    {
+      "layer": 7,
+      "head": 5,
+      "avg_mask": 0.16719770431518555,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L7H5"
+    },
+    {
+      "layer": 7,
+      "head": 6,
+      "avg_mask": 0.05501001328229904,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L7H6"
+    },
+    {
+      "layer": 7,
+      "head": 7,
+      "avg_mask": 0.08079376816749573,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L7H7"
+    },
+    {
+      "layer": 7,
+      "head": 8,
+      "avg_mask": 0.1262243688106537,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L7H8"
+    },
+    {
+      "layer": 7,
+      "head": 9,
+      "avg_mask": 0.19783107936382294,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L7H9"
+    },
+    {
+      "layer": 7,
+      "head": 10,
+      "avg_mask": 0.019758544862270355,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L7H10"
+    },
+    {
+      "layer": 7,
+      "head": 11,
+      "avg_mask": 0.019866589456796646,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L7H11"
+    },
+    {
+      "layer": 8,
+      "head": 0,
+      "avg_mask": 0.027042873203754425,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L8H0"
+    },
+    {
+      "layer": 8,
+      "head": 1,
+      "avg_mask": 0.061127692461013794,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L8H1"
+    },
+    {
+      "layer": 8,
+      "head": 2,
+      "avg_mask": 0.06055575609207153,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L8H2"
+    },
+    {
+      "layer": 8,
+      "head": 3,
+      "avg_mask": 0.07451227307319641,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L8H3"
+    },
+    {
+      "layer": 8,
+      "head": 4,
+      "avg_mask": 0.0451674610376358,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L8H4"
+    },
+    {
+      "layer": 8,
+      "head": 5,
+      "avg_mask": 0.05340050160884857,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L8H5"
+    },
+    {
+      "layer": 8,
+      "head": 6,
+      "avg_mask": 0.04616913944482803,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L8H6"
+    },
+    {
+      "layer": 8,
+      "head": 7,
+      "avg_mask": 0.0423470214009285,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L8H7"
+    },
+    {
+      "layer": 8,
+      "head": 8,
+      "avg_mask": 0.06372590363025665,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L8H8"
+    },
+    {
+      "layer": 8,
+      "head": 9,
+      "avg_mask": 0.15470927953720093,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L8H9"
+    },
+    {
+      "layer": 8,
+      "head": 10,
+      "avg_mask": 0.10895007848739624,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L8H10"
+    },
+    {
+      "layer": 8,
+      "head": 11,
+      "avg_mask": 0.200224831700325,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L8H11"
+    },
+    {
+      "layer": 9,
+      "head": 0,
+      "avg_mask": 0.0185160581022501,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L9H0"
+    },
+    {
+      "layer": 9,
+      "head": 1,
+      "avg_mask": 0.013592209666967392,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L9H1"
+    },
+    {
+      "layer": 9,
+      "head": 2,
+      "avg_mask": 0.06398976594209671,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L9H2"
+    },
+    {
+      "layer": 9,
+      "head": 3,
+      "avg_mask": 0.05135305970907211,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L9H3"
+    },
+    {
+      "layer": 9,
+      "head": 4,
+      "avg_mask": 0.13618820905685425,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L9H4"
+    },
+    {
+      "layer": 9,
+      "head": 5,
+      "avg_mask": 0.11711707711219788,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L9H5"
+    },
+    {
+      "layer": 9,
+      "head": 6,
+      "avg_mask": 0.015644989907741547,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L9H6"
+    },
+    {
+      "layer": 9,
+      "head": 7,
+      "avg_mask": 0.4635732173919678,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L9H7"
+    },
+    {
+      "layer": 9,
+      "head": 8,
+      "avg_mask": 0.01970824971795082,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L9H8"
+    },
+    {
+      "layer": 9,
+      "head": 9,
+      "avg_mask": 0.013832409866154194,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L9H9"
+    },
+    {
+      "layer": 9,
+      "head": 10,
+      "avg_mask": 0.052367307245731354,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L9H10"
+    },
+    {
+      "layer": 9,
+      "head": 11,
+      "avg_mask": 0.007878195494413376,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L9H11"
+    },
+    {
+      "layer": 10,
+      "head": 0,
+      "avg_mask": 0.012949328869581223,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L10H0"
+    },
+    {
+      "layer": 10,
+      "head": 1,
+      "avg_mask": 0.006432767957448959,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L10H1"
+    },
+    {
+      "layer": 10,
+      "head": 2,
+      "avg_mask": 0.006048119161278009,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L10H2"
+    },
+    {
+      "layer": 10,
+      "head": 3,
+      "avg_mask": 0.011771788820624352,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L10H3"
+    },
+    {
+      "layer": 10,
+      "head": 4,
+      "avg_mask": 0.006785459350794554,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L10H4"
+    },
+    {
+      "layer": 10,
+      "head": 5,
+      "avg_mask": 0.034608859568834305,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L10H5"
+    },
+    {
+      "layer": 10,
+      "head": 6,
+      "avg_mask": 0.008111333474516869,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L10H6"
+    },
+    {
+      "layer": 10,
+      "head": 7,
+      "avg_mask": 0.004551971331238747,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L10H7"
+    },
+    {
+      "layer": 10,
+      "head": 8,
+      "avg_mask": 0.016451917588710785,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L10H8"
+    },
+    {
+      "layer": 10,
+      "head": 9,
+      "avg_mask": 0.44244712591171265,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L10H9"
+    },
+    {
+      "layer": 10,
+      "head": 10,
+      "avg_mask": 0.015689805150032043,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L10H10"
+    },
+    {
+      "layer": 10,
+      "head": 11,
+      "avg_mask": 0.010411247611045837,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L10H11"
+    },
+    {
+      "layer": 11,
+      "head": 0,
+      "avg_mask": 0.016657527536153793,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L11H0"
+    },
+    {
+      "layer": 11,
+      "head": 1,
+      "avg_mask": 0.11188778281211853,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L11H1"
+    },
+    {
+      "layer": 11,
+      "head": 2,
+      "avg_mask": 0.004487878642976284,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L11H2"
+    },
+    {
+      "layer": 11,
+      "head": 3,
+      "avg_mask": 0.005709669087082148,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L11H3"
+    },
+    {
+      "layer": 11,
+      "head": 4,
+      "avg_mask": 0.016575513407588005,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L11H4"
+    },
+    {
+      "layer": 11,
+      "head": 5,
+      "avg_mask": 0.0056496476754546165,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L11H5"
+    },
+    {
+      "layer": 11,
+      "head": 6,
+      "avg_mask": 0.0045660920441150665,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L11H6"
+    },
+    {
+      "layer": 11,
+      "head": 7,
+      "avg_mask": 0.1217336356639862,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L11H7"
+    },
+    {
+      "layer": 11,
+      "head": 8,
+      "avg_mask": 0.11129210889339447,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L11H8"
+    },
+    {
+      "layer": 11,
+      "head": 9,
+      "avg_mask": 0.009571945294737816,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L11H9"
+    },
+    {
+      "layer": 11,
+      "head": 10,
+      "avg_mask": 0.004789657890796661,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L11H10"
+    },
+    {
+      "layer": 11,
+      "head": 11,
+      "avg_mask": 0.005948668345808983,
+      "color": "#1f77b4",
+      "category": "All Heads",
+      "head_label": "L11H11"
+    }
+  ],
+  "ov_masks": [
+    {
+      "layer": 0,
+      "head": 0,
+      "avg_mask": 0.004626746289432049,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L0H0"
+    },
+    {
+      "layer": 0,
+      "head": 1,
+      "avg_mask": 0.005540410988032818,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L0H1"
+    },
+    {
+      "layer": 0,
+      "head": 2,
+      "avg_mask": 0.004616342484951019,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L0H2"
+    },
+    {
+      "layer": 0,
+      "head": 3,
+      "avg_mask": 0.008872533217072487,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L0H3"
+    },
+    {
+      "layer": 0,
+      "head": 4,
+      "avg_mask": 0.004813569597899914,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L0H4"
+    },
+    {
+      "layer": 0,
+      "head": 5,
+      "avg_mask": 0.004724046681076288,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L0H5"
+    },
+    {
+      "layer": 0,
+      "head": 6,
+      "avg_mask": 0.005407826974987984,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L0H6"
+    },
+    {
+      "layer": 0,
+      "head": 7,
+      "avg_mask": 0.004446374252438545,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L0H7"
+    },
+    {
+      "layer": 0,
+      "head": 8,
+      "avg_mask": 0.012522213160991669,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L0H8"
+    },
+    {
+      "layer": 0,
+      "head": 9,
+      "avg_mask": 0.006143772508949041,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L0H9"
+    },
+    {
+      "layer": 0,
+      "head": 10,
+      "avg_mask": 0.0068339514546096325,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L0H10"
+    },
+    {
+      "layer": 0,
+      "head": 11,
+      "avg_mask": 0.007050457410514355,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L0H11"
+    },
+    {
+      "layer": 1,
+      "head": 0,
+      "avg_mask": 0.007053638808429241,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L1H0"
+    },
+    {
+      "layer": 1,
+      "head": 1,
+      "avg_mask": 0.004756792914122343,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L1H1"
+    },
+    {
+      "layer": 1,
+      "head": 2,
+      "avg_mask": 0.005129270255565643,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L1H2"
+    },
+    {
+      "layer": 1,
+      "head": 3,
+      "avg_mask": 0.004754238296300173,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L1H3"
+    },
+    {
+      "layer": 1,
+      "head": 4,
+      "avg_mask": 0.018970489501953125,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L1H4"
+    },
+    {
+      "layer": 1,
+      "head": 5,
+      "avg_mask": 0.0046331617049872875,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L1H5"
+    },
+    {
+      "layer": 1,
+      "head": 6,
+      "avg_mask": 0.004454018548130989,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L1H6"
+    },
+    {
+      "layer": 1,
+      "head": 7,
+      "avg_mask": 0.005600512493401766,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L1H7"
+    },
+    {
+      "layer": 1,
+      "head": 8,
+      "avg_mask": 0.010259486734867096,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L1H8"
+    },
+    {
+      "layer": 1,
+      "head": 9,
+      "avg_mask": 0.01056566834449768,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L1H9"
+    },
+    {
+      "layer": 1,
+      "head": 10,
+      "avg_mask": 0.005160510074347258,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L1H10"
+    },
+    {
+      "layer": 1,
+      "head": 11,
+      "avg_mask": 0.014816747978329659,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L1H11"
+    },
+    {
+      "layer": 2,
+      "head": 0,
+      "avg_mask": 0.0055875955149531364,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L2H0"
+    },
+    {
+      "layer": 2,
+      "head": 1,
+      "avg_mask": 0.0358264222741127,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L2H1"
+    },
+    {
+      "layer": 2,
+      "head": 2,
+      "avg_mask": 0.004526730626821518,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L2H2"
+    },
+    {
+      "layer": 2,
+      "head": 3,
+      "avg_mask": 0.005013660993427038,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L2H3"
+    },
+    {
+      "layer": 2,
+      "head": 4,
+      "avg_mask": 0.004574773833155632,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L2H4"
+    },
+    {
+      "layer": 2,
+      "head": 5,
+      "avg_mask": 0.004748839419335127,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L2H5"
+    },
+    {
+      "layer": 2,
+      "head": 6,
+      "avg_mask": 0.004939379170536995,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L2H6"
+    },
+    {
+      "layer": 2,
+      "head": 7,
+      "avg_mask": 0.004524849820882082,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L2H7"
+    },
+    {
+      "layer": 2,
+      "head": 8,
+      "avg_mask": 0.004716880619525909,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L2H8"
+    },
+    {
+      "layer": 2,
+      "head": 9,
+      "avg_mask": 0.004579001571983099,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L2H9"
+    },
+    {
+      "layer": 2,
+      "head": 10,
+      "avg_mask": 0.004539028275758028,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L2H10"
+    },
+    {
+      "layer": 2,
+      "head": 11,
+      "avg_mask": 0.004545379430055618,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L2H11"
+    },
+    {
+      "layer": 3,
+      "head": 0,
+      "avg_mask": 0.004432331304997206,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L3H0"
+    },
+    {
+      "layer": 3,
+      "head": 1,
+      "avg_mask": 0.005019808653742075,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L3H1"
+    },
+    {
+      "layer": 3,
+      "head": 2,
+      "avg_mask": 0.0046579609625041485,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L3H2"
+    },
+    {
+      "layer": 3,
+      "head": 3,
+      "avg_mask": 0.004463021643459797,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L3H3"
+    },
+    {
+      "layer": 3,
+      "head": 4,
+      "avg_mask": 0.004523195791989565,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L3H4"
+    },
+    {
+      "layer": 3,
+      "head": 5,
+      "avg_mask": 0.06452937424182892,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L3H5"
+    },
+    {
+      "layer": 3,
+      "head": 6,
+      "avg_mask": 0.007767412345856428,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L3H6"
+    },
+    {
+      "layer": 3,
+      "head": 7,
+      "avg_mask": 0.00452253594994545,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L3H7"
+    },
+    {
+      "layer": 3,
+      "head": 8,
+      "avg_mask": 0.004960604943335056,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L3H8"
+    },
+    {
+      "layer": 3,
+      "head": 9,
+      "avg_mask": 0.005498397629708052,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L3H9"
+    },
+    {
+      "layer": 3,
+      "head": 10,
+      "avg_mask": 0.004768325947225094,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L3H10"
+    },
+    {
+      "layer": 3,
+      "head": 11,
+      "avg_mask": 0.004655172117054462,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L3H11"
+    },
+    {
+      "layer": 4,
+      "head": 0,
+      "avg_mask": 0.00461418554186821,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L4H0"
+    },
+    {
+      "layer": 4,
+      "head": 1,
+      "avg_mask": 0.016814906150102615,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L4H1"
+    },
+    {
+      "layer": 4,
+      "head": 2,
+      "avg_mask": 0.004602762404829264,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L4H2"
+    },
+    {
+      "layer": 4,
+      "head": 3,
+      "avg_mask": 0.09364467114210129,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L4H3"
+    },
+    {
+      "layer": 4,
+      "head": 4,
+      "avg_mask": 0.00456147501245141,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L4H4"
+    },
+    {
+      "layer": 4,
+      "head": 5,
+      "avg_mask": 0.007461919449269772,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L4H5"
+    },
+    {
+      "layer": 4,
+      "head": 6,
+      "avg_mask": 0.00781037425622344,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L4H6"
+    },
+    {
+      "layer": 4,
+      "head": 7,
+      "avg_mask": 0.004703405313193798,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L4H7"
+    },
+    {
+      "layer": 4,
+      "head": 8,
+      "avg_mask": 0.019755670800805092,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L4H8"
+    },
+    {
+      "layer": 4,
+      "head": 9,
+      "avg_mask": 0.009550272487103939,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L4H9"
+    },
+    {
+      "layer": 4,
+      "head": 10,
+      "avg_mask": 0.005071941763162613,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L4H10"
+    },
+    {
+      "layer": 4,
+      "head": 11,
+      "avg_mask": 0.004597791004925966,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L4H11"
+    },
+    {
+      "layer": 5,
+      "head": 0,
+      "avg_mask": 0.030241400003433228,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L5H0"
+    },
+    {
+      "layer": 5,
+      "head": 1,
+      "avg_mask": 0.004441756755113602,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L5H1"
+    },
+    {
+      "layer": 5,
+      "head": 2,
+      "avg_mask": 0.07009350508451462,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L5H2"
+    },
+    {
+      "layer": 5,
+      "head": 3,
+      "avg_mask": 0.05316346138715744,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L5H3"
+    },
+    {
+      "layer": 5,
+      "head": 4,
+      "avg_mask": 0.01039485540241003,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L5H4"
+    },
+    {
+      "layer": 5,
+      "head": 5,
+      "avg_mask": 0.021170927211642265,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L5H5"
+    },
+    {
+      "layer": 5,
+      "head": 6,
+      "avg_mask": 0.007701871916651726,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L5H6"
+    },
+    {
+      "layer": 5,
+      "head": 7,
+      "avg_mask": 0.004980511497706175,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L5H7"
+    },
+    {
+      "layer": 5,
+      "head": 8,
+      "avg_mask": 0.06974296271800995,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L5H8"
+    },
+    {
+      "layer": 5,
+      "head": 9,
+      "avg_mask": 0.016150809824466705,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L5H9"
+    },
+    {
+      "layer": 5,
+      "head": 10,
+      "avg_mask": 0.1242104321718216,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L5H10"
+    },
+    {
+      "layer": 5,
+      "head": 11,
+      "avg_mask": 0.004990465007722378,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L5H11"
+    },
+    {
+      "layer": 6,
+      "head": 0,
+      "avg_mask": 0.18939916789531708,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L6H0"
+    },
+    {
+      "layer": 6,
+      "head": 1,
+      "avg_mask": 0.042826246470212936,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L6H1"
+    },
+    {
+      "layer": 6,
+      "head": 2,
+      "avg_mask": 0.005228866823017597,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L6H2"
+    },
+    {
+      "layer": 6,
+      "head": 3,
+      "avg_mask": 0.2531260550022125,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L6H3"
+    },
+    {
+      "layer": 6,
+      "head": 4,
+      "avg_mask": 0.028894810006022453,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L6H4"
+    },
+    {
+      "layer": 6,
+      "head": 5,
+      "avg_mask": 0.011641538701951504,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L6H5"
+    },
+    {
+      "layer": 6,
+      "head": 6,
+      "avg_mask": 0.005664825905114412,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L6H6"
+    },
+    {
+      "layer": 6,
+      "head": 7,
+      "avg_mask": 0.06744316220283508,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L6H7"
+    },
+    {
+      "layer": 6,
+      "head": 8,
+      "avg_mask": 0.04257829487323761,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L6H8"
+    },
+    {
+      "layer": 6,
+      "head": 9,
+      "avg_mask": 0.004449731670320034,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L6H9"
+    },
+    {
+      "layer": 6,
+      "head": 10,
+      "avg_mask": 0.009996827691793442,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L6H10"
+    },
+    {
+      "layer": 6,
+      "head": 11,
+      "avg_mask": 0.016213878989219666,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L6H11"
+    },
+    {
+      "layer": 7,
+      "head": 0,
+      "avg_mask": 0.05979856476187706,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L7H0"
+    },
+    {
+      "layer": 7,
+      "head": 1,
+      "avg_mask": 0.0926169902086258,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L7H1"
+    },
+    {
+      "layer": 7,
+      "head": 2,
+      "avg_mask": 0.005126520525664091,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L7H2"
+    },
+    {
+      "layer": 7,
+      "head": 3,
+      "avg_mask": 0.034514594823122025,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L7H3"
+    },
+    {
+      "layer": 7,
+      "head": 4,
+      "avg_mask": 0.09536953270435333,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L7H4"
+    },
+    {
+      "layer": 7,
+      "head": 5,
+      "avg_mask": 0.14005570113658905,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L7H5"
+    },
+    {
+      "layer": 7,
+      "head": 6,
+      "avg_mask": 0.01868506707251072,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L7H6"
+    },
+    {
+      "layer": 7,
+      "head": 7,
+      "avg_mask": 0.05562485754489899,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L7H7"
+    },
+    {
+      "layer": 7,
+      "head": 8,
+      "avg_mask": 0.07103383541107178,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L7H8"
+    },
+    {
+      "layer": 7,
+      "head": 9,
+      "avg_mask": 0.08650289475917816,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L7H9"
+    },
+    {
+      "layer": 7,
+      "head": 10,
+      "avg_mask": 0.00460477452725172,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L7H10"
+    },
+    {
+      "layer": 7,
+      "head": 11,
+      "avg_mask": 0.004532699007540941,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L7H11"
+    },
+    {
+      "layer": 8,
+      "head": 0,
+      "avg_mask": 0.00586922699585557,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L8H0"
+    },
+    {
+      "layer": 8,
+      "head": 1,
+      "avg_mask": 0.04168393090367317,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L8H1"
+    },
+    {
+      "layer": 8,
+      "head": 2,
+      "avg_mask": 0.026144616305828094,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L8H2"
+    },
+    {
+      "layer": 8,
+      "head": 3,
+      "avg_mask": 0.0895032063126564,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L8H3"
+    },
+    {
+      "layer": 8,
+      "head": 4,
+      "avg_mask": 0.010243778117001057,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L8H4"
+    },
+    {
+      "layer": 8,
+      "head": 5,
+      "avg_mask": 0.14747822284698486,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L8H5"
+    },
+    {
+      "layer": 8,
+      "head": 6,
+      "avg_mask": 0.03869399428367615,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L8H6"
+    },
+    {
+      "layer": 8,
+      "head": 7,
+      "avg_mask": 0.021165119484066963,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L8H7"
+    },
+    {
+      "layer": 8,
+      "head": 8,
+      "avg_mask": 0.05606675520539284,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L8H8"
+    },
+    {
+      "layer": 8,
+      "head": 9,
+      "avg_mask": 0.06554284691810608,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L8H9"
+    },
+    {
+      "layer": 8,
+      "head": 10,
+      "avg_mask": 0.030571384355425835,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L8H10"
+    },
+    {
+      "layer": 8,
+      "head": 11,
+      "avg_mask": 0.030263110995292664,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L8H11"
+    },
+    {
+      "layer": 9,
+      "head": 0,
+      "avg_mask": 0.007937859743833542,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L9H0"
+    },
+    {
+      "layer": 9,
+      "head": 1,
+      "avg_mask": 0.005964073818176985,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L9H1"
+    },
+    {
+      "layer": 9,
+      "head": 2,
+      "avg_mask": 0.021978866308927536,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L9H2"
+    },
+    {
+      "layer": 9,
+      "head": 3,
+      "avg_mask": 0.008547762408852577,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L9H3"
+    },
+    {
+      "layer": 9,
+      "head": 4,
+      "avg_mask": 0.06533487886190414,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L9H4"
+    },
+    {
+      "layer": 9,
+      "head": 5,
+      "avg_mask": 0.05376308411359787,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L9H5"
+    },
+    {
+      "layer": 9,
+      "head": 6,
+      "avg_mask": 0.004501694347709417,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L9H6"
+    },
+    {
+      "layer": 9,
+      "head": 7,
+      "avg_mask": 0.0686047226190567,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L9H7"
+    },
+    {
+      "layer": 9,
+      "head": 8,
+      "avg_mask": 0.006511080078780651,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L9H8"
+    },
+    {
+      "layer": 9,
+      "head": 9,
+      "avg_mask": 0.004449327476322651,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L9H9"
+    },
+    {
+      "layer": 9,
+      "head": 10,
+      "avg_mask": 0.01620832458138466,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L9H10"
+    },
+    {
+      "layer": 9,
+      "head": 11,
+      "avg_mask": 0.00797547958791256,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L9H11"
+    },
+    {
+      "layer": 10,
+      "head": 0,
+      "avg_mask": 0.006712270434945822,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L10H0"
+    },
+    {
+      "layer": 10,
+      "head": 1,
+      "avg_mask": 0.004964733030647039,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L10H1"
+    },
+    {
+      "layer": 10,
+      "head": 2,
+      "avg_mask": 0.008837497793138027,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L10H2"
+    },
+    {
+      "layer": 10,
+      "head": 3,
+      "avg_mask": 0.005230869632214308,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L10H3"
+    },
+    {
+      "layer": 10,
+      "head": 4,
+      "avg_mask": 0.007387333083897829,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L10H4"
+    },
+    {
+      "layer": 10,
+      "head": 5,
+      "avg_mask": 0.025365639477968216,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L10H5"
+    },
+    {
+      "layer": 10,
+      "head": 6,
+      "avg_mask": 0.005060544703155756,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L10H6"
+    },
+    {
+      "layer": 10,
+      "head": 7,
+      "avg_mask": 0.007307762745767832,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L10H7"
+    },
+    {
+      "layer": 10,
+      "head": 8,
+      "avg_mask": 0.008287861943244934,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L10H8"
+    },
+    {
+      "layer": 10,
+      "head": 9,
+      "avg_mask": 0.21575672924518585,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L10H9"
+    },
+    {
+      "layer": 10,
+      "head": 10,
+      "avg_mask": 0.006781840696930885,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L10H10"
+    },
+    {
+      "layer": 10,
+      "head": 11,
+      "avg_mask": 0.004683256149291992,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L10H11"
+    },
+    {
+      "layer": 11,
+      "head": 0,
+      "avg_mask": 0.02031010016798973,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L11H0"
+    },
+    {
+      "layer": 11,
+      "head": 1,
+      "avg_mask": 0.1622496247291565,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L11H1"
+    },
+    {
+      "layer": 11,
+      "head": 2,
+      "avg_mask": 0.00952752586454153,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L11H2"
+    },
+    {
+      "layer": 11,
+      "head": 3,
+      "avg_mask": 0.010650057345628738,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L11H3"
+    },
+    {
+      "layer": 11,
+      "head": 4,
+      "avg_mask": 0.008450930006802082,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L11H4"
+    },
+    {
+      "layer": 11,
+      "head": 5,
+      "avg_mask": 0.02089892141520977,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L11H5"
+    },
+    {
+      "layer": 11,
+      "head": 6,
+      "avg_mask": 0.01024305634200573,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L11H6"
+    },
+    {
+      "layer": 11,
+      "head": 7,
+      "avg_mask": 0.2421095371246338,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L11H7"
+    },
+    {
+      "layer": 11,
+      "head": 8,
+      "avg_mask": 0.18318471312522888,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L11H8"
+    },
+    {
+      "layer": 11,
+      "head": 9,
+      "avg_mask": 0.007514278870075941,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L11H9"
+    },
+    {
+      "layer": 11,
+      "head": 10,
+      "avg_mask": 0.01212895568460226,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L11H10"
+    },
+    {
+      "layer": 11,
+      "head": 11,
+      "avg_mask": 0.00737476721405983,
+      "color": "#ff7f0e",
+      "category": "All Heads",
+      "head_label": "L11H11"
+    }
+  ],
+  "is_ioi": false
+}

@@ -544,3 +544,208 @@ For the first implementation, these are passed through CLI arguments in [experim
 ## Immediate next step
 
 The next concrete step is to run the normal GP training flow first, capture the generated checkpoint path and run summary path, and then feed those directly into the causal steering script.
+
+
+## Commands used for GP training, causal steering, ablation, and reporting
+ 
+This section documents the command-line workflow used to train the GP circuit, run causal steering experiments, run the smart ablation baseline, and generate the comparison report.
+ 
+### 1. Train the GP circuit
+ 
+Run the main training script with the GP config:
+ 
+```bash
+python experiments/train.py --config configs/gp_config.yaml
+If you want to override the experiment name at launch time:
+
+bash
+python experiments/train.py \
+  --config configs/gp_config.yaml \
+  --experiment_name gp_circuit_discovery
+This produces a run directory under:
+
+text
+svd_logs/<experiment_name>_<timestamp>/
+For the run used in our experiments, the resulting directory was:
+
+text
+svd_logs/gp_circuit_discovery_20260307_113624/
+Important artifacts produced by training:
+
+model_final.pt
+run_summary.json
+2. Resume training from a previous run
+If training needs to be resumed from a previous run directory:
+
+bash
+python experiments/train.py \
+  --config configs/gp_config.yaml \
+  --resume_run_dir svd_logs/gp_circuit_discovery_20260307_113624
+If a specific checkpoint path is used:
+
+bash
+python experiments/train.py \
+  --config configs/gp_config.yaml \
+  --resume_checkpoint svd_logs/gp_circuit_discovery_20260307_113624/checkpoints/<checkpoint_file>.pt
+3. Run causal steering in sweep mode
+The main causal steering run used the saved training run directory directly:
+
+bash
+python experiments/ablation/causal_steering.py \
+  --run_dir svd_logs/gp_circuit_discovery_20260307_113624 \
+  --mode sweep
+This writes results by default under:
+
+text
+svd_logs/gp_circuit_discovery_20260307_113624/causal_steering/
+and produces:
+
+text
+causal_steering_sweep.json
+4. Run causal steering with explicit settings
+The steering script supports the following main flags:
+
+--run_dir
+--model_path
+--config_path
+--output_dir
+--batch_size
+--max_batches
+--mode
+--target_genders
+--direction_group
+--direction_names
+--additive_deltas
+--sigma_scales
+--sweep_points
+Example with explicit sweep settings:
+
+bash
+python experiments/ablation/causal_steering.py \
+  --run_dir svd_logs/gp_circuit_discovery_20260307_113624 \
+  --mode sweep \
+  --target_genders he,she \
+  --direction_group all_gender \
+  --sweep_points 9 \
+  --batch_size 32 \
+  --max_batches 20
+5. Run causal steering for different direction groups
+All gender directions
+bash
+python experiments/ablation/causal_steering.py \
+  --run_dir svd_logs/gp_circuit_discovery_20260307_113624 \
+  --mode sweep \
+  --direction_group all_gender
+Masculine directions only
+bash
+python experiments/ablation/causal_steering.py \
+  --run_dir svd_logs/gp_circuit_discovery_20260307_113624 \
+  --mode sweep \
+  --direction_group masculine \
+  --output_dir svd_logs/gp_circuit_discovery_20260307_113624/causal_steering_masculine
+Feminine directions only
+bash
+python experiments/ablation/causal_steering.py \
+  --run_dir svd_logs/gp_circuit_discovery_20260307_113624 \
+  --mode sweep \
+  --direction_group feminine \
+  --output_dir svd_logs/gp_circuit_discovery_20260307_113624/causal_steering_feminine
+Plural comparison direction
+bash
+python experiments/ablation/causal_steering.py \
+  --run_dir svd_logs/gp_circuit_discovery_20260307_113624 \
+  --mode sweep \
+  --direction_group plural
+6. Run other causal steering modes
+Mean swap
+bash
+python experiments/ablation/causal_steering.py \
+  --run_dir svd_logs/gp_circuit_discovery_20260307_113624 \
+  --mode mean_swap
+Additive steering
+bash
+python experiments/ablation/causal_steering.py \
+  --run_dir svd_logs/gp_circuit_discovery_20260307_113624 \
+  --mode additive \
+  --additive_deltas=-1.0,-0.5,0.0,0.5,1.0
+Sigma-scaled steering
+bash
+python experiments/ablation/causal_steering.py \
+  --run_dir svd_logs/gp_circuit_discovery_20260307_113624 \
+  --mode sigma_scaled \
+  --sigma_scales=-2.0,-1.0,0.0,1.0,2.0
+7. Run the legacy smart ablation baseline
+The range-swap baseline was run with:
+
+bash
+python experiments/ablation/intervention.py \
+  --run_dir svd_logs/gp_circuit_discovery_20260307_113624
+This writes results by default under:
+
+text
+svd_logs/gp_circuit_discovery_20260307_113624/smart_ablation/
+and produces:
+
+text
+smart_ablation_results.json
+8. Generate the comparison report and figures
+The report-generation script compares smart ablation with causal steering and writes a paper-style report plus plots:
+
+bash
+python scripts/generate_ablation_steering_report.py \
+  --run_dir svd_logs/gp_circuit_discovery_20260307_113624
+This writes output under:
+
+text
+svd_logs/gp_circuit_discovery_20260307_113624/comparison_report/
+including:
+
+report.md
+figures/causal_sweep_curves.png
+figures/direction_group_sweeps.png
+figures/smart_vs_causal_bars.png
+figures/sigma_amplification.png
+9. Generate the report with explicit masculine and feminine causal sweep files
+If dedicated causal sweeps have been run for masculine-only and feminine-only direction groups, the comparison report can incorporate them explicitly:
+
+bash
+python scripts/generate_ablation_steering_report.py \
+  --run_dir svd_logs/gp_circuit_discovery_20260307_113624 \
+  --causal_masculine_results svd_logs/gp_circuit_discovery_20260307_113624/causal_steering_masculine/causal_steering_sweep.json \
+  --causal_feminine_results svd_logs/gp_circuit_discovery_20260307_113624/causal_steering_feminine/causal_steering_sweep.json
+10. Core artifact paths used in the study
+The main run directory used in the current study is:
+
+text
+svd_logs/gp_circuit_discovery_20260307_113624/
+The main artifacts referenced throughout the experiments are:
+
+svd_logs/gp_circuit_discovery_20260307_113624/model_final.pt
+svd_logs/gp_circuit_discovery_20260307_113624/run_summary.json
+svd_logs/gp_circuit_discovery_20260307_113624/causal_steering/causal_steering_sweep.json
+svd_logs/gp_circuit_discovery_20260307_113624/smart_ablation/smart_ablation_results.json
+svd_logs/gp_circuit_discovery_20260307_113624/comparison_report/report.md
+11. Recommended execution order
+The full workflow should be run in this order:
+
+Train the GP circuit.
+Save the resulting run_dir.
+Run causal_steering.py in sweep mode.
+Run intervention.py for the smart ablation baseline.
+Optionally run masculine-only and feminine-only causal sweeps.
+Generate the comparison report and figures.
+ 
+# Note
+ 
+One small correction to keep in mind:
+ 
+- [generate_ablation_steering_report.py](cci:7://file:///Users/s.avvari/IIITH/precog/Beyond-Components/scripts/generate_ablation_steering_report.py:0:0-0:0) expects the default extra files at:
+  - `causal_steering/causal_steering_sweep_masculine.json`
+  - `causal_steering/causal_steering_sweep_feminine.json`
+ 
+But the commands we used earlier save them into separate directories unless you explicitly pass paths back into the report script. So the explicit report command in section `9` is the safer one.
+ 
+# Status
+ 
+- **Commands verified against current scripts:** yes
+- **Markdown ready to paste into [EXPERIMENT.md](cci:7://file:///Users/s.avvari/IIITH/precog/Beyond-Components/EXPERIMENT.md:0:0-0:0):** yes

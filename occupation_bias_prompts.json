@@ -1,0 +1,254 @@
+[
+  {
+    "id": "doctor_said_that",
+    "prompt": "The doctor said that",
+    "category": "masculine_coded",
+    "occupation": "doctor",
+    "template": "[occupation] said that"
+  },
+  {
+    "id": "doctor_told_patient_that",
+    "prompt": "The doctor told the patient that",
+    "category": "masculine_coded",
+    "occupation": "doctor",
+    "template": "[occupation] told the patient that"
+  },
+  {
+    "id": "doctor_realized_that",
+    "prompt": "The doctor realized that",
+    "category": "masculine_coded",
+    "occupation": "doctor",
+    "template": "[occupation] realized that"
+  },
+  {
+    "id": "engineer_said_that",
+    "prompt": "The engineer said that",
+    "category": "masculine_coded",
+    "occupation": "engineer",
+    "template": "[occupation] said that"
+  },
+  {
+    "id": "engineer_told_team_that",
+    "prompt": "The engineer told the team that",
+    "category": "masculine_coded",
+    "occupation": "engineer",
+    "template": "[occupation] told the team that"
+  },
+  {
+    "id": "engineer_explained_that",
+    "prompt": "The engineer explained that",
+    "category": "masculine_coded",
+    "occupation": "engineer",
+    "template": "[occupation] explained that"
+  },
+  {
+    "id": "scientist_said_that",
+    "prompt": "The scientist said that",
+    "category": "masculine_coded",
+    "occupation": "scientist",
+    "template": "[occupation] said that"
+  },
+  {
+    "id": "scientist_mentioned_that",
+    "prompt": "The scientist mentioned that",
+    "category": "masculine_coded",
+    "occupation": "scientist",
+    "template": "[occupation] mentioned that"
+  },
+  {
+    "id": "scientist_told_reporter_that",
+    "prompt": "The scientist told the reporter that",
+    "category": "masculine_coded",
+    "occupation": "scientist",
+    "template": "[occupation] told the reporter that"
+  },
+  {
+    "id": "lawyer_said_that",
+    "prompt": "The lawyer said that",
+    "category": "masculine_coded",
+    "occupation": "lawyer",
+    "template": "[occupation] said that"
+  },
+  {
+    "id": "lawyer_argued_that",
+    "prompt": "The lawyer argued that",
+    "category": "masculine_coded",
+    "occupation": "lawyer",
+    "template": "[occupation] argued that"
+  },
+  {
+    "id": "lawyer_told_client_that",
+    "prompt": "The lawyer told the client that",
+    "category": "masculine_coded",
+    "occupation": "lawyer",
+    "template": "[occupation] told the client that"
+  },
+  {
+    "id": "nurse_said_that",
+    "prompt": "The nurse said that",
+    "category": "feminine_coded",
+    "occupation": "nurse",
+    "template": "[occupation] said that"
+  },
+  {
+    "id": "nurse_explained_that",
+    "prompt": "The nurse explained that",
+    "category": "feminine_coded",
+    "occupation": "nurse",
+    "template": "[occupation] explained that"
+  },
+  {
+    "id": "nurse_told_family_that",
+    "prompt": "The nurse told the family that",
+    "category": "feminine_coded",
+    "occupation": "nurse",
+    "template": "[occupation] told the family that"
+  },
+  {
+    "id": "receptionist_said_that",
+    "prompt": "The receptionist said that",
+    "category": "feminine_coded",
+    "occupation": "receptionist",
+    "template": "[occupation] said that"
+  },
+  {
+    "id": "receptionist_thought_that",
+    "prompt": "The receptionist thought that",
+    "category": "feminine_coded",
+    "occupation": "receptionist",
+    "template": "[occupation] thought that"
+  },
+  {
+    "id": "receptionist_told_visitor_that",
+    "prompt": "The receptionist told the visitor that",
+    "category": "feminine_coded",
+    "occupation": "receptionist",
+    "template": "[occupation] told the visitor that"
+  },
+  {
+    "id": "babysitter_said_that",
+    "prompt": "The babysitter said that",
+    "category": "feminine_coded",
+    "occupation": "babysitter",
+    "template": "[occupation] said that"
+  },
+  {
+    "id": "babysitter_realized_that",
+    "prompt": "The babysitter realized that",
+    "category": "feminine_coded",
+    "occupation": "babysitter",
+    "template": "[occupation] realized that"
+  },
+  {
+    "id": "babysitter_told_parent_that",
+    "prompt": "The babysitter told the parent that",
+    "category": "feminine_coded",
+    "occupation": "babysitter",
+    "template": "[occupation] told the parent that"
+  },
+  {
+    "id": "housekeeper_said_that",
+    "prompt": "The housekeeper said that",
+    "category": "feminine_coded",
+    "occupation": "housekeeper",
+    "template": "[occupation] said that"
+  },
+  {
+    "id": "housekeeper_noted_that",
+    "prompt": "The housekeeper noted that",
+    "category": "feminine_coded",
+    "occupation": "housekeeper",
+    "template": "[occupation] noted that"
+  },
+  {
+    "id": "housekeeper_told_manager_that",
+    "prompt": "The housekeeper told the manager that",
+    "category": "feminine_coded",
+    "occupation": "housekeeper",
+    "template": "[occupation] told the manager that"
+  },
+  {
+    "id": "teacher_said_that",
+    "prompt": "The teacher said that",
+    "category": "neutral",
+    "occupation": "teacher",
+    "template": "[occupation] said that"
+  },
+  {
+    "id": "teacher_explained_that",
+    "prompt": "The teacher explained that",
+    "category": "neutral",
+    "occupation": "teacher",
+    "template": "[occupation] explained that"
+  },
+  {
+    "id": "teacher_told_student_that",
+    "prompt": "The teacher told the student that",
+    "category": "neutral",
+    "occupation": "teacher",
+    "template": "[occupation] told the student that"
+  },
+  {
+    "id": "writer_said_that",
+    "prompt": "The writer said that",
+    "category": "neutral",
+    "occupation": "writer",
+    "template": "[occupation] said that"
+  },
+  {
+    "id": "writer_mentioned_that",
+    "prompt": "The writer mentioned that",
+    "category": "neutral",
+    "occupation": "writer",
+    "template": "[occupation] mentioned that"
+  },
+  {
+    "id": "writer_told_editor_that",
+    "prompt": "The writer told the editor that",
+    "category": "neutral",
+    "occupation": "writer",
+    "template": "[occupation] told the editor that"
+  },
+  {
+    "id": "manager_said_that",
+    "prompt": "The manager said that",
+    "category": "neutral",
+    "occupation": "manager",
+    "template": "[occupation] said that"
+  },
+  {
+    "id": "manager_explained_that",
+    "prompt": "The manager explained that",
+    "category": "neutral",
+    "occupation": "manager",
+    "template": "[occupation] explained that"
+  },
+  {
+    "id": "manager_told_team_that",
+    "prompt": "The manager told the team that",
+    "category": "neutral",
+    "occupation": "manager",
+    "template": "[occupation] told the team that"
+  },
+  {
+    "id": "student_said_that",
+    "prompt": "The student said that",
+    "category": "neutral",
+    "occupation": "student",
+    "template": "[occupation] said that"
+  },
+  {
+    "id": "student_realized_that",
+    "prompt": "The student realized that",
+    "category": "neutral",
+    "occupation": "student",
+    "template": "[occupation] realized that"
+  },
+  {
+    "id": "student_told_teacher_that",
+    "prompt": "The student told the teacher that",
+    "category": "neutral",
+    "occupation": "student",
+    "template": "[occupation] told the teacher that"
+  }
+]
